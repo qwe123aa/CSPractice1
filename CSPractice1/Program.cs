@@ -119,6 +119,20 @@ namespace CSPractice1
             int[] intArray = new int[100];
             Console.WriteLine(intArray[99]);
 
+            // #3 14-2. while 반복문
+            int i = 0;
+            int[] intArray2 = { 52, 273, 32 };
+            while(i<intArray2.Length)
+            {
+                Console.WriteLine(intArray2[i]);
+                i++;    //탈출을 위한 변수
+            }
+
+
+
+
+
+
 
 
         }
