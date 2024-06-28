@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace CSPractice1
 {
+    class FirstClass
+    {
+
+    }
+
     internal class Program
     {
+        class ThirdClass
+        {
+
+        }
         static void Main(string[] args)
         {
             //컨텍스트 키워드
@@ -152,7 +161,8 @@ namespace CSPractice1
             Console.WriteLine(Math.Round(52.273));  //52
             Console.WriteLine(Math.PI); //3.141592653589793238
 
-
+            // #4 21-3. 클래스 생성
+            
 
         }
     }
