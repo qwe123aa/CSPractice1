@@ -88,6 +88,17 @@ namespace CSPractice1
             // #1 12-10 자료형변환
             //중요함
 
+            // #1 13-1. if 조건문
+            bool condition = true;
+            if (condition) {
+                //true
+            }
+            else if(condition) {
+                //true2
+            }
+            else {
+                //other
+            }
         }
     }
 }
