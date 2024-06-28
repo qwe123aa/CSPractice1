@@ -64,6 +64,11 @@ namespace CSPractice1
             //변수(Variable)
             string name = "문자열 자료형";
 
+            // #1 12-5. 복합대입 연산자
+            //+= -= *= /= %=
+            string output = "Hello"; ;
+            output += "World";
+            Console.WriteLine(output);
         }
     }
 }
