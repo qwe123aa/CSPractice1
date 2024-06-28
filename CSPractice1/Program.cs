@@ -88,7 +88,7 @@ namespace CSPractice1
             // #1 12-10 자료형변환
             //중요함
 
-            // #1 13-1. if 조건문
+            // #2 13-1. if 조건문
             bool condition = true;
             if (condition) {
                 //true
@@ -99,6 +99,24 @@ namespace CSPractice1
             else {
                 //other
             }
+
+            // #2 13-2 switch 조건문
+            int v = 0;
+            switch (v)
+            {
+                case 0:
+                    //0
+                    break;
+                default:
+                    //other
+                    break;
+            }
+
+
+
+
+
+
         }
     }
 }
