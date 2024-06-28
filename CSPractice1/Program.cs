@@ -135,7 +135,14 @@ namespace CSPractice1
                 Console.WriteLine(item);
             }
 
-
+            // #4 21-2. 클래스 사용
+            Random random = new Random();
+            Console.WriteLine(random.Next(1,7));
+            Console.WriteLine(random.Next(1,7));
+            Console.WriteLine(random.Next(1,7));
+            Console.WriteLine(random.Next(1,7));
+            Console.WriteLine(random.Next(1,7));
+            Console.WriteLine(random.Next(1,7));
 
 
 
