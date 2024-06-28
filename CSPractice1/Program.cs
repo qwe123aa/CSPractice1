@@ -69,6 +69,13 @@ namespace CSPractice1
             string output = "Hello"; ;
             output += "World";
             Console.WriteLine(output);
+
+            // #1 12-6. 증감연산자
+            int number = 10;
+            Console.WriteLine(number++);    //10
+            Console.WriteLine(++number);    //12
+            Console.WriteLine(number--);    //12
+            Console.WriteLine(--number);    //10
         }
     }
 }
