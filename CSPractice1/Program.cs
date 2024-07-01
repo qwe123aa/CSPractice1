@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace CSPractice1
 {
+    class Sample
+    {
+        public static int value;
+        static Sample()
+        {
+            value = 10;
+            Console.WriteLine("정적 생성자 호출");
+        }
+        public Sample()
+        {
+            Console.WriteLine("(인스턴스) 생성자 호출");
+        }
+    }
     class MyMath
     {
         public static int classVar = 1;
@@ -203,6 +216,14 @@ namespace CSPractice1
             Console.WriteLine(MyMath.Abs(10.0));    //Abs(double)
             Console.WriteLine(MyMath.Abs(-10L));    //Abs(double)
             Console.WriteLine(MyMath.Abs(3.0f));    //Abs(double)
+
+            // #5 22-6. 생성자(+정적 생성자)
+            Console.WriteLine("첫 번째 위치");
+            //Sample의 정적 생성자가 1번 호출됨
+            Console.WriteLine(Sample.value);
+            Console.WriteLine("두 번째 위치");
+            Sample sample = new Sample();
+            Console.WriteLine("세 번째 위치");
         }
     }
 }
