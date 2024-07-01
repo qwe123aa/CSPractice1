@@ -18,7 +18,13 @@ namespace CSPractice1
         {
             Console.WriteLine("(인스턴스) 생성자 호출");
         }
+
+        ~Sample()
+        {
+            Console.WriteLine("소멸자 호출");
+        }
     }
+
     class MyMath
     {
         public static int classVar = 1;
@@ -224,6 +230,8 @@ namespace CSPractice1
             Console.WriteLine("두 번째 위치");
             Sample sample = new Sample();
             Console.WriteLine("세 번째 위치");
-        }
+
+            // #5 22-7. 소멸자
+        }   
     }
 }
