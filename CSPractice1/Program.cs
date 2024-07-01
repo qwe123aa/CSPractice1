@@ -278,13 +278,19 @@ namespace CSPractice1
                     item.Eat();
                     item.Sleep();
                     if (item is Dog)
-                        (Dog)item.Bark();
+                        ((Dog)item).Bark();
                     else if(item is Cat)
                     {
                         var cat = item as Cat;
-                        cat.Meow();
+                        if(cat != null) cat.Meow();
                     }
             }
+
+            // #6 23-6. 상속의 생성자
+            Child child = new Child();
+
+
+
             }
         }
     }
