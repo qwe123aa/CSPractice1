@@ -175,6 +175,9 @@ namespace CSPractice1
             Product p2 = new Product() { price = 1000000, name = "아이폰" };
             Product p3 = new Product() { price = 1000000 };
 
+            //#4  21-5. 클래스 변수
+            Console.WriteLine(Product.TAX_RATIO);
+            //Console.WriteLine(p1.TAX_RATIO);
         }
     }
 }
